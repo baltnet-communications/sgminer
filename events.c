@@ -265,6 +265,6 @@ void event_notify(const char *event_type)
 
   // quit sgminer if set
   if (event->quit == true)
-    quit(0, ((empty_string(event->quit_msg))?event_type:event->quit_msg));
+    quit(0, "%s", ((empty_string(event->quit_msg))?event_type:event->quit_msg));
 
 }
