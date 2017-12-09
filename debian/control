@@ -1,0 +1,15 @@
+Source: sgminer
+Section: misc
+Priority: optional
+Maintainer: Baltnet Communications <info@baltnet.ee>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/sgminer-dev/sgminer
+Vcs-Git: git@github.com:baltnet-communications/sgminer.git
+Vcs-Browser: https://github.com/baltnet-communications/sgminer.git
+
+Package: sgminer
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Miner for scrypt-based currencies
+ Multi-threaded multi-pool GPU miner with ATI GPU monitoring, overclocking and fanspeed support for scrypt-based cryptocurrency.

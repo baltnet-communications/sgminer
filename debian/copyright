@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sgminer
+Source: https://github.com/baltnet-communications/sgminer
+
+Files: *
+License: GPL-3
+ See COPYING and Authors.md files in the source directory
